@@ -1,0 +1,93 @@
+
+body {
+  background-color: #EBEBEB;
+  font-family: 'Museo Slab', sans-serif;
+  text-align: center;
+  font-weight: 300;
+}
+/* Museo Slab*/
+
+h1 {
+  font-size: 30px;
+  color: #1B3C59;
+  line-height: 80px;
+  /*font-family: 'Montserrat', sans-serif;*/
+/*  font-weight: lighter;*/
+}
+
+h2 {
+  line-height: 30px;
+  color: #456173;
+/*  font-weight: 300;*/
+}
+
+h3 {
+  color: #456173;
+  font-size: 16px;
+  line-height: 40px;
+/*  font-weight: 300;*/
+}
+
+p {
+  color: #456173;
+}
+
+li {
+  color: #456173;
+}
+
+a {
+  text-decoration: none;
+  color:#11BFAE;
+}
+
+a:hover {
+  background-color: rgba(230, 230, 230, 0.5);
+  border-radius: 2px;
+}
+
+img {
+  height: auto;
+  width: auto;
+  max-width: 200px;
+  max-height: 200px;
+  border-radius: 50%;
+  margin: 0 auto;
+}
+
+ul {
+    padding: 15;
+    /*list-style: none;   remove bullet points*/
+    /*padding-left: 0;*/
+}
+
+.container {
+  width: 500px;
+  margin: 0 auto;
+}
+
+.card {
+  background: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 4px;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.2);
+}
+
+.list-inline {
+  padding-left: 0;
+}
+
+.list-inline li {
+  display: inline-block;
+  padding: 20px;
+}
+
+.list-inline li i {
+  font-size: 30px;
+}
+
+.text-center {
+    text-align: center;
+}
+/* Here goes your CSS */
